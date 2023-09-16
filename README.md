@@ -1,0 +1,1 @@
+https://yauhenibelski.github.io/cssMemeSlider/cssMemeSlider/index.html
