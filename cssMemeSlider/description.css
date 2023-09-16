@@ -17,6 +17,7 @@ input[name="control"]:nth-child(4):checked ~ .control-wrap .description-containe
   display: block;
   animation-name: opacity;
 }
+
 @keyframes opacity {
   0% {
   opacity: 0;

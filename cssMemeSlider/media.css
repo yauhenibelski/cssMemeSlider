@@ -2,14 +2,17 @@
   .slider-container {
     width: 100%;
   }
+
   .control-wrap {
     flex-direction: column;
     justify-content: center;
     margin-top: 3vw;
   }
+
   .control-container {
     margin-top: 2%;
   }
+
   .slider {
     height: 70%;
   }
