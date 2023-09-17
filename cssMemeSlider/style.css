@@ -1,0 +1,66 @@
+* {
+  transition: 0.4s;
+}
+.slider-container {
+  width: 80%;
+  height: 60vw;
+  max-height: 70vh;
+  min-height: 30rem;
+  margin: auto;
+  overflow: hidden;
+  border-radius: 0.5rem;
+  box-shadow: 0rem 0rem 1rem 0rem rgb(0 0 0 / 45%);
+}
+.slider {
+  display: flex;
+  justify-content: center;
+  width: 400%;
+  height: 90%;
+  margin-left: 0%;
+}
+.slide {
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  width: 100%;
+}
+.slide img {
+  height: 90%;
+  margin-top: 1rem;
+  border-radius: 0.5rem;
+}
+.control-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2%;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+.control-container {
+  display: flex;
+  justify-content: center;
+}
+.control div{
+  display: block;
+  width: 1vh;
+  height: 1vh;
+  border-radius: 50%;
+  border: solid #9f9f9f;
+  cursor: pointer;
+}
+.control:hover  div {
+  background-color: #9f9f9f;
+}
+.control {
+  display: block;
+  padding: 10%;
+  cursor: pointer;
+}
+
+input[name="control"]:nth-child(1):checked ~ .control-wrap .control-container  .control:nth-child(1) div,
+input[name="control"]:nth-child(2):checked ~ .control-wrap .control-container  .control:nth-child(2) div,
+input[name="control"]:nth-child(3):checked ~ .control-wrap .control-container  .control:nth-child(3) div,
+input[name="control"]:nth-child(4):checked ~ .control-wrap .control-container  .control:nth-child(4) div {
+  background-color: #9f9f9f;
+}

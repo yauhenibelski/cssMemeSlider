@@ -1,0 +1,15 @@
+input[name="control"] {
+  display: none;
+}
+input[name="control"]:nth-child(1):checked ~ .slider{
+  margin-left: 0%;
+}
+input[name="control"]:nth-child(2):checked ~ .slider{
+  margin-left: -100%;
+}
+input[name="control"]:nth-child(3):checked ~ .slider{
+  margin-left: -200%;
+}
+input[name="control"]:nth-child(4):checked ~ .slider{
+  margin-left: -300%;
+}

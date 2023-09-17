@@ -1,0 +1,24 @@
+@media (max-width: 800px) {
+  .slider-container {
+    width: 100%;
+    min-height: auto;
+  }
+
+  .control-wrap {
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 3vw;
+  }
+  .slide img {
+    height: 60vw;
+    max-height: 90%;
+  }
+
+  .control-container {
+    margin-top: 1%;
+  }
+
+  .slider {
+    height: 80%;
+  }
+}
